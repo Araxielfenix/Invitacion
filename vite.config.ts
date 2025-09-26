@@ -5,6 +5,7 @@ import devtools from 'solid-devtools/vite';
 
 export default defineConfig({
   plugins: [devtools(), solidPlugin(), tailwindcss()],
+  base: "/invitacion",
   server: {
     port: 3000,
   },

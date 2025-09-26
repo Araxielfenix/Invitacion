@@ -6,8 +6,8 @@ const titulo = () => {
     return (
         <div id="textoTitulo">
             <div class="grid grid-cols-1 justify-items-center">
-                <img class='w-fit md: w-screen' src={nivelImg} alt="¡Nivel Desbloqueado!"/>
-                <img class='w-fit md: w-screen' src={babyShower} alt="Baby shower" />
+                <img class='animate-ping w-fit md: w-screen' src={nivelImg} alt="¡Nivel Desbloqueado!"/>
+                <img class='animate-bounce w-fit md: w-screen' src={babyShower} alt="Baby shower" />
                 <img class='w-fit md: w-screen' src={jugador} alt="Jugador 3" />
             </div>
         </div>

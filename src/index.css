@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("./media/fondoPC.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("./media/fondoPhone.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 20px;
+  border: 3px solid rgb(79, 40, 253);
+}
+
+@theme {
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+  }
+
+  --animate-bounce: bounce 2s infinite;
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(-1%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+  --animate-ping: ping 0.7s cubic-bezier(0, 0, 0.2, 1);
+
+  @keyframes ping {
+    0%, 5% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  /* animation-pulse */
+  --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes pulse {
+    50% {
+      opacity: 0.5;
+    }
+  }
+}

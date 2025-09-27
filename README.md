@@ -6,7 +6,7 @@ Este repositorio contiene el código fuente de una invitación digital interacti
 
 Puedes ver la invitación desplegada y en funcionamiento en el siguiente enlace:
 
-**https://araxielfenix.github.io/invitacion/)**
+**https://araxielfenix.github.io/invitacion/**
 
 ## ✨ Características
 

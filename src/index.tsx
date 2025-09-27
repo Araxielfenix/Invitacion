@@ -1,15 +1,15 @@
 /* @refresh reload */
 import './index.css';
-import { render } from 'solid-js/web';
 import 'solid-devtools';
+import { render } from 'solid-js/web';
 import Titulo from './titulo';
 import fechaHora from './fechaHora';
 import Direccion from './ubicacion';
-import Mesa from './mesaDeRegalos';
+import Confirmar from './confirmacion';
 
 const root = document.getElementById('root');
 
 render(() => <Titulo />, root);
 render(() => fechaHora, root);
 render(() => <Direccion />, root);
-render(() => <Mesa />, root);
+render(() => <Confirmar />, root);

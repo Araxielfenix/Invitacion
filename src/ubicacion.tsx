@@ -2,7 +2,7 @@ const direccion = () => {
   return (
     <div id="panelDireccion">
       <div class="embed-map-responsive">
-        <a href="https://maps.app.goo.gl/rvVUUMnxubZ79ZQ76">
+        <a href="https://maps.app.goo.gl/Su7BNWiofmHhW1jd7">
           <div
             class="
                 flex items-center justify-center 

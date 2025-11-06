@@ -3,7 +3,7 @@ const confirmar = () => {
         <div id="panelConfirmar">
             <div class="flex flex-col items-center shrink">
                 <p></p>
-                <a href="https://wa.link/ernb2i">
+                <a href="https://wa.link/qrpstw">
                     <button
                         class="relative cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-[24px] bg-gradient-to-t from-[#4822b0] to-[#c35ff5] active:scale-95"
                     >
